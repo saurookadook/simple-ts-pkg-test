@@ -1,6 +1,7 @@
-.vscode
-.yarn
+.vscode/
+.yarn/
 coverage.data
 coverage/
 dist/
 node_modules/
+.pnp.*
