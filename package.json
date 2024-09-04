@@ -1,17 +1,19 @@
 {
-  "name": "simple-ts-pkg-test",
-  "version": "0.0.1",
-  "description": "Just a little Node package in TypeScript",
-  "main": "index.js",
-  "scripts": {
-    "start": "ts-node src/index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andy Maskiell",
-  "license": "MIT",
-  "packageManager": "yarn@4.4.1",
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "5.5.3"
-  }
+    "name": "simple-ts-pkg-test",
+    "version": "0.0.1",
+    "description": "Just a little Node package in TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsup",
+        "start": "ts-node src/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andy Maskiell",
+    "license": "MIT",
+    "packageManager": "yarn@4.4.1",
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "tsup": "^8.2.4",
+        "typescript": "5.5.3"
+    }
 }
